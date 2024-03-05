@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$translucent"	1
+	"$basetexture" "vgui\replay\thumbnails\REDdivider"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+}

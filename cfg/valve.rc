@@ -1,0 +1,27 @@
+// load the base configuration
+//exec default.cfg
+r_decal_cullsize 1
+
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+// display the startup level
+startupmenu
+
+sv_unlockedchapters 99
+
+//make sure match hud is on
+tf_use_match_hud 1
+match_hud_on //for mastercomfig
+//completely disable the match hud command
+alias match_hud_warning "echo The match hud commands have been disabled by Healthbar Hud"
+alias match_hud_off match_hud_warning //for mastercomfig
+alias tf_use_match_hud match_hud_warning

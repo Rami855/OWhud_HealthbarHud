@@ -1,0 +1,7 @@
+event TeamStatus_PlayerDead
+{
+}
+
+event TeamStatus_PlayerAlive
+{
+}
