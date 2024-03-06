@@ -90,6 +90,41 @@
 		"font"			"HudFontMediumSecondary"
 		"fgcolor"		"TanLight"
 	}
+	"PlayerName2"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"xpos"			"77"
+		"ypos"			"89"
+		"zpos"			"5"
+		"wide"			"176"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"		"1"
+		"show_model"	"0"
+		"show_type"		"0"
+		"matchgroup"	"MatchGroup_Ladder_6v6"
+	}
+	"OWBannerSmall"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"OWBannerSmall"
+		"xpos"			"77"		[$WIN32]
+		"ypos"			"89"	[$WIN32]
+		"zpos"			"1"		
+		"wide"			"176"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"replay\thumbnails\REDbanner"	
+		"teambg_2"		"replay\thumbnails\REDbannersmall"
+		"teambg_3"		"replay\thumbnails\BLUbannerSmall"
+
+		"src_corner_height"	"54"
+		"src_corner_width"	"54"
+		"draw_corner_height"	"4"
+		"draw_corner_width"		"4"
+	}
 ///////////////////////////////////////////////////////////////////
 
 	"healthbar_backgroundREAL"   //background for the healthbar

@@ -5867,6 +5867,5 @@ Scheme
 			}
 		}
 		"8" "resource/toonhudicons.ttf"
-		}
 	}
 }
